@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  header {
+    background-color: #008CBA;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .logo{
+    border-radius: 50%;
+    height: 45%;
+    width: 45%;
+  }
+  .logo:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px #008CBA;
+    transition: all ease-in-out .8s;
+    cursor: pointer;
+  }
+  
+  .main-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #008CBA;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    margin-right: 20px;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  /* Agrega aquí más estilos según sea necesario */
+  
