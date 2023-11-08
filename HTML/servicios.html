@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeFit - Servicios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Quattrocento+Sans:ital@0;1&display=swap');
+        body {
+        background-color: #f2f2f2;
+        font-family: 'lato';
+        margin: 0;
+        padding: 0;
+        }
+        /* Estilos para el encabezado (header) */
+        header {
+            background-color: #008CBA;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilos para la sección de servicios */
+        .services-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .service-card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 30%;
+        }
+        .service-card:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 1px gray;
+            transition: all ease-in-out .8s;
+            cursor: pointer;
+        }
+
+        .service-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .service-description {
+            margin-top: 10px;
+        }
+        footer {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        }
+        /* Estilos para el botón de volver */
+        .boton-volver {
+            margin: 10px;
+            border: solid #000;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .boton-volver:hover {
+            background-color: #008CBA;
+            transition: all ease-in-out .8s;
+            cursor: pointer;
+        }
+        .service-card{
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado de pagina -->
+    <header>
+        <h1>Nuestros Servicios</h1>
+    </header>
+    <a href="../index.html" class="boton-volver">Volver a la Página Principal</a>
+    <!-- Secciones de los servicios -->
+    <section class="services-section">
+        <!-- Servicio #1 -->
+        <div class="service-card">
+            <h2 class="service-title">Planificación de Comidas</h2>
+            <p class="service-description">Creamos planes de comidas personalizados para ayudarte a llevar una dieta equilibrada.</p>
+            <a href="../HTML/subpaginas servicios/comidas.html">Ir a Planificación</a>
+        </div>
+        <!-- Servicio #2 -->
+        <div class="service-card">
+            <h2 class="service-title">Seguimiento de Ejercicios</h2>
+            <p class="service-description">Lleva un registro de tu actividad física y recibe recomendaciones de entrenamiento.</p>
+            <a href="../HTML/subpaginas servicios/seguimiento.html">Ir a Seguimiento</a>
+        </div>
+        <!-- Servicio #3 -->
+        <div class="service-card">
+            <h2 class="service-title">Asesoramiento Nutricional</h2>
+            <p class="service-description">Consulta con nuestros expertos en nutrición para obtener consejos y orientación personalizada.</p>
+            <a href="../HTML/subpaginas servicios/asesoramiento.html">Ir a Asesoramiento</a>
+        </div>
+    </section>
+    <!-- Pie de pagina -->
+    <footer>
+        <p>&copy; 2023 LifeFit</p>
+    </footer>
+</body>
+</html>

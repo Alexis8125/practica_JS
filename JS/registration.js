@@ -10,16 +10,12 @@ registrationForm.addEventListener('submit', function(event) {
   const email = document.getElementById('email').value;
   const password = document.getElementById('password').value;
 
-  // Validamos los campos (solo validaciones básicas)
+  // Validamos los campos
   if (username === '' || email === '' || password === '') {
     alert('Por favor, completa todos los campos.');
     return;
   }
-
-  // Envía los datos al servidor para el registro (simulado en este ejemplo)
-  // Aquí deberías hacer una solicitud HTTP (por ejemplo, usando fetch()) para enviar los datos al servidor.
-
-  // Muestra un mensaje de éxito (esto es un ejemplo, en un entorno real, el servidor debería enviar una respuesta)
+  // Muestra un mensaje de éxito
   alert('¡Registro exitoso! Bienvenido a LifeFit.');
 
   // Redirige al usuario a la página de inicio de sesión o a otra página de tu elección
